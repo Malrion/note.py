@@ -60,7 +60,7 @@ while (True):
 6) "exit" - Turn off the bot
 7) "help" - Displays a list of possible commands''')
         print()
-        time.sleep(2)
+        input('Press "Enter" to exit')
     elif (line == 'exit'):
         print('Shutting down ...')
         time.sleep(2)
